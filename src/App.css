@@ -1,0 +1,255 @@
+@import url('https://fonts.cdnfonts.com/css/axiforma');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+li {
+  font-family: 'Axiforma', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+
+
+}
+
+.nav-links {
+
+  padding: 6px 10px;
+}
+
+.white-btn {
+  background-color: white;
+  color: #524FD5;
+  padding: 12px 32px;
+  border-radius: 73px;
+  font-family: 'Axiforma', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.white-btn:hover {
+  background-color: #524FD5;
+  color: white;
+}
+
+.purple-btn {
+  background-color: #524FD5;
+  color: white;
+  padding: 12px 32px;
+  border-radius: 73px;
+  font-family: 'Axiforma', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.purple-btn:hover {
+  background-color: white;
+  color: #524FD5;
+}
+
+.hero-text-big {
+  font-family: 'Axiforma';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 56px;
+  line-height: 126%;
+  width: 558px;
+  color: #181B32;
+  margin-bottom: 18px;
+
+}
+
+.span-text {
+  font-weight: 500;
+  color: #524FD5;
+}
+
+.hero-text-small {
+  font-family: 'Axiforma';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 190%;
+  /* or 34px */
+
+
+  /* Body text */
+
+  color: #666680;
+  width: 350px;
+  height: 68px;
+}
+
+.details-text-1 {
+  width: 160px;
+  height: 34px;
+
+  /* Subtitle 1 */
+
+  font-family: 'Axiforma';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 190%;
+  /* or 34px */
+
+  text-transform: uppercase;
+
+  /* Outline dark */
+
+  color: #B0B0C0;
+}
+
+.details-text-2 {
+  width: 243px;
+  height: 62px;
+
+  /* H2 */
+
+  font-family: 'Axiforma';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 130%;
+  /* or 62px */
+
+
+  /* Text Primary */
+
+  color: #181B32;
+}
+
+.details-title {
+  font-family: 'Axiforma';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+
+
+  /* Text Primary */
+
+  color: #181B32;
+
+}
+
+.details-body {
+  font-family: 'Axiforma';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 190%;
+  /* or 34px */
+
+  text-align: center;
+
+  /* Body text */
+
+  color: #666680;
+
+}
+
+
+.teachers-p {
+  font-family: 'Axiforma';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 190%;
+  /* or 34px */
+
+  text-transform: uppercase;
+
+  /* Outline dark */
+
+  color: #B0B0C0;
+
+}
+
+.teachers-h1 {
+  font-family: 'Axiforma';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 130%;
+  /* or 62px */
+
+
+  /* Text Primary */
+
+  color: #181B32;
+}
+
+#slider-container {
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+#slider-container::-webkit-scrollbar {
+  display: none;
+}
+
+.slider-card-name {
+  font-family: 'Axiforma';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+
+
+  /* Text Primary */
+
+  color: #181B32;
+}
+
+.slider-card-role {
+  font-family: 'Axiforma';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 190%;
+  /* or 34px */
+
+
+  /* Body text */
+
+  color: #666680;
+}
+
+.testimonials-h3 {
+  font-family: 'Axiforma';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  /* identical to box height, or 112% */
+
+
+  /* Text Primary */
+
+  color: #181B32;
+
+}
+
+.testimonials-p {
+  font-family: 'Axiforma';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 180%;
+  /* or 47px */
+
+
+  /* Text Primary */
+
+  color: #181B32;
+  width: 610px;
+}
